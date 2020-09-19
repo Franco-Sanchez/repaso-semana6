@@ -51,4 +51,56 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+@font-face {
+  font-family: Gilroy;
+  src: url("/fonts/Gilroy-Light.woff");
+}
+
+/* ------------ */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+  letter-spacing: 0.04em;
+}
+
+body {
+  max-width: 1366px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 2.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  min-width: 316.5px;
+}
+
+img {
+  width: 100%;
+}
+
+a, i {
+  cursor: pointer;
+}
+
+h2, h5 {
+  line-height: 46px;
+}
 /*# sourceMappingURL=main.css.map */
