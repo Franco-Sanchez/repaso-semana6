@@ -1,0 +1,12 @@
+ul {
+    @include flexible(space-between);
+    @include fontLogo;
+
+    & a {
+        font-weight: $fontWeigth;
+    }
+
+    & li:first-child a {
+        color: $colorPrimary;
+    }
+}

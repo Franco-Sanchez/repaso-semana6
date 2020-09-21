@@ -1,0 +1,11 @@
+form {
+    background-color: #F4F4F4;
+}
+
+input {
+    background-color: inherit;
+}
+
+input::placeholder {
+    color: $colorPrimary;
+}

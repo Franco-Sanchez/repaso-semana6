@@ -1,0 +1,19 @@
+.SectionTitle {
+    @include flexible (center);
+    flex-direction: column;
+    position: relative;
+    min-height: 250px;
+
+    & p {
+        @include fontLogo;
+        width: 58%;
+        text-align: center;
+    }
+}
+
+.SectionTitle::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

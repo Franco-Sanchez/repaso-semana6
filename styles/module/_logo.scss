@@ -1,0 +1,18 @@
+.Logo {
+    display: flex;
+    @include posicion;
+
+    & div:first-child {
+        @include circulo;
+    }
+
+    & div:last-child {
+        @include flexible(center);
+        @include fontLogo;
+        @include circulo;
+        @include circuloBlanco;
+        font-weight: $fontWeigth;
+        font-family: $fontMarca;
+        color: $colorLogo;
+    }
+}

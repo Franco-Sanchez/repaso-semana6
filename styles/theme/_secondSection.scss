@@ -1,0 +1,10 @@
+.SecondSection {
+
+    & h3 {
+        color: $colorPrimary;
+    }
+
+    & h4, a {
+        color: $colorSecondary;
+    }
+}

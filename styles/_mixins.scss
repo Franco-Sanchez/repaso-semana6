@@ -1,0 +1,38 @@
+@mixin flexible($j) {
+    display: flex;
+    justify-content: $j;
+    align-items: center;
+}
+
+@mixin fontLogo {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@mixin fontMenor {
+    font-size: .9rem;
+    line-height: 24px;
+}
+
+@mixin fontSubtitulo {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+@mixin posicion {
+    position: relative;
+    width: 64px;
+}
+
+@mixin circulo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+@mixin circuloBlanco {
+    position: absolute;
+    background-color: white;
+    border: 2px solid #316099;
+    left: 30%;
+}

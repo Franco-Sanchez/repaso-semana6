@@ -1,0 +1,21 @@
+.PieArticle {
+    @include flexible(space-between);
+
+    & h6 {
+        font-weight: $fontWeigth;
+        color: $colorPrimary;
+    }
+
+    & span {
+        opacity: $opacity;
+    }
+
+    & div:last-child {
+        @include flexible(space-between);
+        width: $share;
+    }
+
+    & h6, span {
+        @include fontMenor;
+    }
+}

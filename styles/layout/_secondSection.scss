@@ -1,0 +1,42 @@
+.SecondSection {
+    display: grid;
+    margin: 0 15.6%;
+    grid-template-columns: 35.4% 63.6%;
+   	grid-column-gap: 1%;
+    grid-row-gap: 32px;
+
+    & article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    & img {
+        grid-column: 1;
+    }
+
+    & div {
+        margin-top: 24px;
+    }
+
+    & div:last-child {
+        justify-self: flex-end;
+    }
+
+    & h3 {
+        @include fontSubtitulo;
+    }
+
+    & h4 {
+        @include fontLogo;
+    }
+
+    & p {
+        @include fontMenor;
+        opacity: $opacity;
+    }
+
+    & h3, h4 {
+        font-weight: $fontWeigth;
+    }
+}
